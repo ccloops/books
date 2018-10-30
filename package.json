@@ -1,0 +1,31 @@
+{
+  "name": "books",
+  "version": "1.0.0",
+  "description": "ejs, book app",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccloops/books.git"
+  },
+  "keywords": [
+    "ejs",
+    "book",
+    "app"
+  ],
+  "author": "Catherine Looper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ccloops/books/issues"
+  },
+  "homepage": "https://github.com/ccloops/books#readme",
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "superagent": "^4.0.0-beta.5"
+  }
+}
